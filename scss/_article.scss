@@ -1,0 +1,158 @@
+/* ============================
+   Full Article Page
+============================= */
+
+.full-article {
+    margin-top: 80px;
+    overflow: hidden;
+}
+#parent {
+    max-width: 765px;
+}
+.full-article-img-wrapper {
+    max-width: 765px;
+    max-height: 480px;
+    overflow: hidden; 
+}
+.full-img {
+    width: 100%;
+}
+.full-article-info {
+    color: #475665;
+    font-family: $arialGeo;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0 35px;
+}
+.full-article-info > span:nth-child(2) {
+    color:#0E3E5E;
+}
+.full-art-title {
+    display: flex;
+    margin-bottom: 30px;
+}
+.full-art-h1 {
+    color: #475665;
+    font-family: $arialGeo;
+    font-size: 30px;
+}
+.full-art-text {
+    color: #475665;
+    font-family: $arialGeo;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 25px 0 20px;
+}
+.tags-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.tags {
+    font-family: $arialGeo;
+    color: #000;
+    font-size: 14px;
+}
+.tags > a {
+    color: #475665;
+}
+.confirm-delete {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 140px;
+    background: #E2E2E2;
+}
+.confirm-delete > h4 {
+    font-family: 'arial_geo';
+    font-size: 20px;
+    text-align: center;
+    color: #475665;
+    padding: 30px 0 20px;
+}
+.confirm-delete > div {
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.confirm-delete > div > p {
+    font-family: 'arial_geo';
+    font-size: 24px;
+    cursor: pointer;
+}
+.confirm-delete > div > p:first-child {
+    color: #FF0000;
+}
+.confirm-delete > div > p:last-child {
+    color: #589FA5;
+}
+.fb-like {
+    margin: 15px 0 25px;
+}
+/*=============== art-side-bar ===============*/
+#side-bar {
+    width: 300px;
+    margin-left: 60px;
+    padding: 0;
+}
+.art-side-bar {
+    width: 300px;
+    overflow: hidden;
+}
+.art-side-bar > .edit-page-icon {
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.profile-box {
+    width: 100%;
+    height: 290px;
+    background: #EFEFEF;
+    padding: 33px 15px 20px;
+    margin-bottom: 25px;
+}
+.profile-img {
+    max-width: 270px;
+    min-width: 270px;
+    max-height: 180px;
+    min-height: 180px;
+}
+.user-name {
+    font-family: $arialGeo;
+    color: #475665;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.posts-box {
+    margin-bottom: 20px;
+    background: #EFEFEF;
+    min-height: 340px;
+}
+.posts-box:last-child {
+    min-height: 490px;
+}
+.post-header {
+    height: 45px;
+    background: #589FA5;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-family: $arialGeo;
+    font-size: 17px;
+}
+.post-wrapper {
+    padding: 15px 40px;
+}
+.post {
+    display: block;
+    color: #475665;
+    font-family: $arialGeo;
+    font-size: 12px;
+    margin-bottom: 22px;
+    line-height: 15px;
+}
